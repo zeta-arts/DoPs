@@ -1,2 +1,2 @@
-DoPs
+DarkOrbit Private Server
 ====
