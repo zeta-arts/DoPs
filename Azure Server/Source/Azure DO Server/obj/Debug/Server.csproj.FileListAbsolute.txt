@@ -1,0 +1,12 @@
+e:\users\xdr\documents\visual studio 2012\Projects\Azure DO Server\Azure DO Server\bin\Debug\Azure DO Server.exe.config
+e:\users\xdr\documents\visual studio 2012\Projects\Azure DO Server\Azure DO Server\bin\Debug\Azure DO Server.exe
+e:\users\xdr\documents\visual studio 2012\Projects\Azure DO Server\Azure DO Server\bin\Debug\Azure DO Server.pdb
+e:\users\xdr\documents\visual studio 2012\Projects\Azure DO Server\Azure DO Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+e:\users\xdr\documents\visual studio 2012\Projects\Azure DO Server\Azure DO Server\obj\Debug\Azure DO Server.exe
+e:\users\xdr\documents\visual studio 2012\Projects\Azure DO Server\Azure DO Server\obj\Debug\Azure DO Server.pdb
+E:\Users\Xdr\Desktop\Azure Do Server\Source\Azure DO Server\bin\Debug\Azure DO Server.exe.config
+E:\Users\Xdr\Desktop\Azure Do Server\Source\Azure DO Server\obj\Debug\Azure DO Server.exe
+E:\Users\Xdr\Desktop\Azure Do Server\Source\Azure DO Server\obj\Debug\Azure DO Server.pdb
+E:\Users\Xdr\Desktop\Azure Do Server\Source\Azure DO Server\bin\Debug\Azure DO Server.exe
+E:\Users\Xdr\Desktop\Azure Do Server\Source\Azure DO Server\bin\Debug\Azure DO Server.pdb
+E:\Users\Xdr\Desktop\Azure Do Server\Source\Azure DO Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
