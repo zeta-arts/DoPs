@@ -1,0 +1,22 @@
+v0.2: 
+  - New CMS
+	- Some bugs fixed
+	- New pathfinder.
+v0.3: 
+	- Fixed some bugs in attack function and added new messages
+	- Aliens can attack now
+	- Added faction system to ships.
+v0.4:
+	- Coded settings system
+	- Coded to preserve users data.
+	- Coded ping
+	- Coded update alerts.
+	- Portals positions fixed.
+	- New alien, Devolarium
+	- Updated algorithm of shield absorb
+v0.5:
+	- Coded remove users from map
+	- Improved voids
+	- Improving power efficiency
+	- Fixed bug with BAR_STATUS
+	- ShipData synchronized with database.
