@@ -1,0 +1,292 @@
+@charset "utf-8";
+
+.light {
+    background-color:#484848;
+}
+
+.dark {
+
+}
+.lightHighlight {
+    background-color:#484848;
+    color: #f38c50;
+}
+
+.darkHighlight {
+    color: #f38c50;
+}
+
+#playerInvasion .info-table {
+    width: 100%;
+}
+
+.info-table {
+    border-collapse: collapse;
+}
+
+.info-table th {
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color:#3f3f3f
+}
+
+.info-table th, .info-table td{
+    text-align: center;
+    padding-right:5px;
+    padding-left:5px;
+}
+
+
+#hallOfFame_pers {
+    position: absolute;
+    top:70px;
+    left:90px;
+    width:500px;
+    height:300px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    z-index:1;
+    text-align:center;
+}
+#hallOfFame_dailyRank {
+    position: absolute;
+    top:70px;
+    left:90px;
+    width:500px;
+    height:300px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    z-index:1;
+    text-align:left;
+}
+#hallOfFame_mainContent {
+    position: absolute;
+    top:60px;
+    left:85px;
+    width:500px;
+    height:320px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    z-index:1;
+}
+#hallOfFame_allFirms {
+    position: absolute;
+    top:60px;
+    left:85px;
+    width:500px;
+    height:320px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    z-index:1;
+}
+#hallOfFame_titel {
+    position: absolute;
+    top:60px;
+    left:85px;
+    width:500px;
+    height:320px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    z-index:1;
+}
+#tdm_companyOverallRanking {
+    position: absolute;
+    top: 172px;
+    left: 85px;
+    width:500px;
+}
+
+#hallOfFame_clanBattleStations {
+    position: absolute;
+    top:60px;
+    left:85px;
+    width:500px;
+    height:320px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    z-index:1;
+}
+
+#hallOfFame_dailyRank_formula {
+    text-align:right;margin-right:10px;
+}
+
+#hallOfFame_dailyRank_formula .span_first {
+    color:#11FF11;
+}
+#hallOfFame_dailyRank_formula .span_second {
+    color:red;
+}
+#TDM_User_Overall_Ranking {
+    position:absolute;top:60px;left:90px;width:500px;height:320px;overflow-y:auto;
+    overflow-x:hidden;;z-index:1;
+}
+#TDM_User_Daily_Ranking {
+    position:absolute;top:85px;left:90px;width:500px;height:295px;overflow-y:auto;
+    overflow-x:hidden;;z-index:1;
+}
+.jumpNavi {
+    text-align:center;padding:5px 0;
+}
+#spaceball {
+    width:500px;height:300px;overflow-y:auto;
+    overflow-x:hidden;;z-index:3;margin-left:90px;margin-top:70px;
+}
+#invasion {
+    position: absolute;
+    top: 172px;
+    left: 85px;
+    width:500px;
+}
+#playerInvasion {
+    position:absolute;top:60px;left:90px;width:500px;height:320px;overflow-y:auto;
+    overflow-x:hidden;;z-index:1;
+}
+.captureTheBeacon {
+
+    width:100%;
+}
+
+.fame-list  {
+    width:350px;
+    height:18px;
+    padding-top:2px;
+    background-color:#787878;
+    border:1px solid #000000;
+    margin-right:4px;
+}
+
+.3rows_first {
+    text-align:center;vertical-align:top;
+}
+.3rows_second {
+    vertical-align:top;padding-left:10px;
+}
+.3rows_third {
+    vertical-align:top;padding-left:10px;white-space: nowrap;
+}
+
+/* tiles */
+.titel_arrow {
+    float:left;margin-right:20px;
+}
+.title_number {
+    float:left;width:45px;margin-top:-1px;
+}
+.title_title {
+    float:left;width:150px;margin-top:-1px;
+}
+.title_current_user {
+    float:left;width:150px;margin-top:-1px;overflow:hidden;
+}
+.title_time {
+    float:left;margin-top:-1px;
+}
+.title_topten_number {
+    float:left;width:45px;margin-top:-1px;
+}
+.title_topten_title {
+    float:left;width:120px;margin-top:-1px;
+}
+.title_topten_username {
+    float:left;width:160px;margin-top:-1px;
+}
+.title_topten_time {
+    float:left;width:100px;margin-top:-1px;
+}
+
+
+
+.fame-bg-title-1 {
+    width:480px;
+    height:13px;
+    background-image: url(/do_img/global/fame/bg_fame_title_1.jpg?__cv=d744a20e9e8e9b45903b16d4aefa0200);
+    background-repeat: no-repeat;
+    background-position
+}
+.fame-bg-title-2 {
+    width:480px;
+    height:13px;
+}
+.fame-bg-title-sel {
+    width:480px;
+    height:13px;
+    background-image: url(/do_img/global/fame/bg_fame_title_2.jpg?__cv=871f131f99bb7d4a171d56cd40b75a00);
+    background-repeat: no-repeat;
+}
+
+
+.fame-bg-title-history-1 {
+    width:430px;
+    height:13px;
+    margin-left:50px;
+    background-image: url(/do_img/global/fame/bg_fame_title_1.jpg?__cv=d744a20e9e8e9b45903b16d4aefa0200);
+}
+.fame-bg-title-history-2 {
+    width:430px;
+    height:13px;
+    margin-left:50px;
+}
+
+#hof_subnav_4thjuly {
+    position:absolute;top:62px;left:83px;
+}
+
+#hof_subnav_4thjuly div{
+    float:left;
+    margin: 5px 20px;
+    font-weight:bold;
+}
+
+#july4thFireworksUser, #july4thFireworksClan, #july4thFireworksFaction {
+    position:absolute;
+    top:85px;
+    left:83px;
+    width:506px;
+    height:315px;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+
+#npcHuntUser, #npcHuntClan, #npcHuntFaction {
+    position:absolute;
+    top:100px;
+    left:83px;
+    width:506px;
+    height:280px;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+#npcHuntSelect {
+    position:absolute;
+    top:70px;
+    left:83px;
+}
+
+#petWeekCollect, #petWeekHunt, #petWeekGate, #scoremageddonRanking {
+    position:absolute;
+    top:100px;
+    left:83px;
+    width:506px;
+    height:280px;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+#scoremageddonRanking table {
+    border-collapse:collapse;
+    width:465px;
+    margin-left:10px;
+}
+#petWeekSelect, #scoremageddonSelect {
+    position:absolute;
+    top:70px;
+    left:83px;
+}
+
+.Highlight {
+    color: #f38c50;
+}
+
+#hallOfFame_clanBattleStations td {
+    padding: 2px 5px;
+}

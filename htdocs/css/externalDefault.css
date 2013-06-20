@@ -1,0 +1,922 @@
+@charset "utf-8";
+
+/* Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption, th, td {
+    font-weight: normal;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td.signup_label {
+    padding:    4px 0;
+    width:      100px;
+}
+
+caption, th, td {
+    font-weight: normal;
+}
+
+/* ----------------------------------------------- general settings --------------------------------------- */
+
+body {
+    background-color:   #000000;
+    overflow-x:         hidden;
+    overflow-y:         scroll;
+    color:              white;
+    text-align:         left;
+}
+
+.fontStyle{
+    font-family:    Verdana,serif;
+    font-size:      10px;
+    letter-spacing: 0;
+    line-height:    6px;
+}
+
+#do_globalContent {
+    width:                  1920px;
+    height:                 1300px;
+    background-image: url(/bg.png);
+    background-color:       #000000;
+    background-position:    top center;
+
+    position:       relative;
+    left:           -962px;
+    top:            0;
+    margin-left:    50%;
+
+    z-index:    0;
+}
+
+#do_globalContent_winterfest {
+    width:                  1920px;
+    height:                 1300px;
+    background-image: url(/do_img/global/externalDefault/darkorbit_defaultpage_01_winter.jpg?__cv=b9ad6d92635b69696e61ddb20d302000);
+    background-color:       #000000;
+    background-position:    top center;
+
+    position:       relative;
+    left:           -962px;
+    top:            0;
+    margin-left:    50%;
+
+    z-index:    0;
+}
+
+/* no cookies */
+#noCookie{
+    color: red;
+    width: 100%;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 12px;
+    font-family: Verdana,serif;
+    text-align: center;
+    background-color: #CCC;
+    height: 18px;
+    padding-top: 3px;
+}
+/* ------------------------------------ cobrand stuff -------------------------------------------------- */
+.do_cobrand_container{
+    position:   absolute;
+    left:       1255px;
+    top:        194px;
+}
+/* ------------------------------------ language selection -------------------------------------------------- */
+
+.do_select_lang {
+    position:   absolute;
+    left:       488px;
+    top:        11px;
+    cursor:     pointer;
+}
+.do_select_lang #selectedLanguageBox{
+    position:   absolute;
+    left:       -34px;
+    top:        1px;
+}
+#selectedLanguageBox #languageArrow{
+    position:   absolute;
+    top:        0;
+    left:       136px;
+    width:      13px;
+    height:     10px;
+    background: url(/do_img/global/externalDefault/arrow_lanugage.png?__cv=64b23adccedb1812b0848996520ff800) no-repeat;
+}
+#selectedLanguageBox  #currentLanguageFlag {
+    width:      16px;
+    height:     11px;
+
+    position:   absolute;
+    top:        0;
+    left:       -4px;
+}
+#selectedLanguageBox  #currentLanguageText {
+    position:           absolute;
+    top:                0px;
+    left:               18px;
+    text-align:         left;
+
+    font-size:          10px;
+    font-family:        Verdana;
+    line-height:        10px;
+    letter-spacing:     0;
+    color:              #777;
+    width:              114px;
+}
+.do_select_lang #selectedLanguageBox:hover ,
+.do_select_lang #languageBox:hover {
+    cursor: pointer;
+}
+#languageBox {
+    position:           absolute;
+    left:               -48px;
+    top:                33px;
+    width:              171px;
+    border:             1px solid #294153;
+    background-color:   black;
+    background-color:   rgba(0, 0, 0, 0.7);
+    padding-top:        22px;
+    z-index:            5;
+}
+#languageBox .languageList{
+    position:   relative;
+    height:     16px;
+    top:        -11px;
+    left:       18px;
+}
+#languageBox  .languageFlag {
+    width:      16px;
+    height:     11px;
+
+    position:   relative;
+    top:        0;
+}
+#languageBox  .languageName {
+    position:   relative;
+    top:        -11px;
+    left:       18px;
+    text-align: left;
+
+    font-size:      10px;
+    font-family:    Verdana;
+    line-height:    10px;
+    letter-spacing: 0;
+
+    overflow: hidden;
+    width: 109px;
+    height: 12px;
+}
+
+.do_login_container{
+    position:   absolute;
+    left:       1297px;
+    top:        0;
+
+    width:      202px;
+    height:     165px;
+
+}
+.do_registration_container{
+    position:   absolute;
+    left:       537px;
+    top:        234px;
+
+    width:      376px;
+    min-height:     407px;
+}
+#do_registration_container_titel{
+    position:   absolute;
+    left:       24px;
+    top:        -64px;
+}
+
+
+.do_screenshot{
+    position:   absolute;
+    left:       537px;
+    top:        711px;
+}
+.do_screenshot #screenshotsTitel{
+    position:   absolute;
+    left:       4px;
+    top:        -16px;
+}
+
+.do_story{
+    position:   absolute;
+    left:       940px;
+    top:        867px;
+    background: url(/do_img/global/externalDefault/box_story.jpg?__cv=c3b5fa2a71cd8f5ee8269b4cbd3c5200) center center no-repeat;
+    width:      480px;
+    height:     231px;
+    font-size:  10px;
+    line-height:    12px;
+    color:      #a0a0a0;
+    font-family: Verdana;
+    letter-spacing: 0;
+}
+.do_story h1{
+    color:      #91bdc7;
+    font-size:  12px;
+    line-height:    14px;
+    padding-bottom: 3px;
+}
+
+.do_story #do_story_titel{
+    position:   absolute;
+    left:       12px;
+    top:        1px;
+}
+
+.do_story #do_story_content{
+    position:   absolute;
+    left:       26px;
+    top:        22px;
+    width:      437px;
+    height:     182px;
+    text-align: left;
+}
+
+.do_like_box{
+    position:   absolute;
+    left:       524px;
+    top:        867px;
+    background: url(/do_img/global/externalDefault/box_newsstream.jpg?__cv=fffa4e1230e0a01fa086e7aab4136c00) center center no-repeat;
+    width:      399px;
+    height:     234px;
+}
+.do_like_box #do_like_box_titel{
+    position:   absolute;
+    left:       18px;
+    top:        3px;
+}
+
+/* ----------------------------------- teaser box --------------------------------------------*/
+.do_teaser_box {
+    position:   absolute;
+    left:       932px;
+    top:        45px;
+}
+.do_teaser_box .teaser_item {
+    position:   absolute;
+    left:       0;
+    top:        0;
+}
+
+#do_signupCounter{
+    position:   absolute;
+    top:        13px;
+    left:       620px;
+    text-align: center;
+    width:      174px;
+    color:      #777;
+}
+
+.do_login_container,
+.do_bookmark_feature,
+.do_registration_container,
+.do_screenshot,
+.do_story,
+.do_like_box,
+.do_footer,
+.gl_footer,
+.do_teaser_box,
+.do_social_features,
+#do_signupCounter,
+.do_cobrand_container,
+.do_instance_selection{
+    z-index: 1;
+}
+/* --------------------------- social features --------------------------------- */
+
+.do_social_features{
+    left:       938px;
+    position:   absolute;
+    top:        12px;
+    width:      269px;
+    z-index:    2;
+}
+
+.do_social_features #DOFacebookLike,
+.do_social_features #DOGooglePlus{
+    float: left !important;
+}
+.do_social_features #DOFacebookLike {
+    padding: 0 0 0 8px !important;
+}
+
+/* --------------------------- bookmark feature --------------------------------- */
+
+.do_login_container #bookmark_feature_bookmark_text {
+
+    width:      17px;
+    height:     17px;
+    font-size:  0;
+    overflow:   hidden;
+    position:   absolute;
+    left:       -43px;
+    top:        11px;
+    background: url(/do_img/global/externalDefault/icon_bookmark.png?__cv=7c5494ab91d314e2d7d035258c3b4c00) no-repeat;
+    background-position: 0 0;
+}
+
+.do_login_container #bookmark_feature_bookmark_text:hover {
+    background-position: -18px 0;
+}
+
+.do_login_container #bookmark_feature_homepage_text{
+
+    width:      17px;
+    height:     17px;
+    font-size:  0;
+    overflow:   hidden;
+    position:   absolute;
+    left:       -56px;
+    top:        10px;
+    background: url(/do_img/global/externalDefault/icon_addhome.png?__cv=a20fe84ae0cb62ed323972fe4e3ef400) no-repeat;
+    background-position: 0 0;
+}
+
+.do_login_container #bookmark_feature_homepage_text:hover{
+
+    background-position: -18px 0;
+}
+
+/* ---------------------------------------- flash settings ------------------------------------------------ */
+
+#do_flash_background {
+    position:   absolute;
+    top:        0;
+    left:       0;
+}
+
+#do_flash_heat {
+    position:   absolute;
+    top:        256px;
+    left:       1224px;
+}
+#do_flash_light_form {
+    position:   absolute;
+    top:        215px;
+    left:       533px;
+}
+#do_flash_logo {
+    position:   absolute;
+    top:        0;
+    left:       500px;
+}
+#do_flash_nyx {
+    position:   absolute;
+    top:        132px;
+    left:       775px;
+}
+
+#do_flash_trailer{
+    position:   absolute;
+    top:        599px;
+    left:       969px;
+}
+
+#do_flash_trailer,
+#do_flash_nyx,
+#do_flash_logo,
+#do_flash_light_form,
+#do_flash_heat,
+#do_flash_background{
+    z-index: 0;
+}
+
+a#hostBackLink{
+    background: url('http://landingpages.a.bpcdn.net/new/LIVE/general/0/250.png');
+    width:      365px;
+    height:     118px;
+
+    position:   absolute;
+    left:       538px;
+    top:        50px;
+}
+/* --------------------------------------- scrollbar ------------------------------- */
+.scroll-pane{
+    color:          #BBBBBB;
+    font-family:    Verdana;
+    font-size:      11px;
+    letter-spacing: 0;
+    line-height:    13px;
+    overflow-y:     auto;
+}
+
+.jspArrow{
+    height:     16px !important;
+    width:      16px !important;
+}
+.jspArrow.jspArrowUp{
+    background: url(/do_img/global/externalDefault/scrollbar_button_top.png?__cv=75fc64b7a00e0e1629615c222d838800) center center no-repeat;
+}
+.jspArrow.jspArrowUp:hover{
+    background: url(/do_img/global/externalDefault/scrollbar_buttom_top_over.png?__cv=606167a17fa8a11e8b631c18347c9300) center center no-repeat !important;
+}
+.jspArrow.jspArrowDown{
+    background: url(/do_img/global/externalDefault/scrollbar_button_bottom.png?__cv=7701906e68662e087813ddabe912cb00) center center no-repeat;
+}
+.jspArrow.jspArrowDown:hover{
+    background: url(/do_img/global/externalDefault/scrollbar_button_bottom_over.png?__cv=9255fdf2308f15562df20ea7c1c98900) center center no-repeat !important;
+}
+.jspArrow.jspArrowUp.jspDisabled {
+    background: url(/do_img/global/externalDefault/scrollbar_button_top.png?__cv=75fc64b7a00e0e1629615c222d838800) center center no-repeat;
+}
+.jspArrow.jspArrowDown.jspDisabled {
+    background: url(/do_img/global/externalDefault/scrollbar_button_bottom.png?__cv=7701906e68662e087813ddabe912cb00) center center no-repeat;
+}
+.jspTrack {
+    background: url(/do_img/global/externalDefault/scroll_track.png?__cv=d68af6729258c40d7a60444d58263900) center center repeat-y !important;
+}
+.jspDrag{
+    background: url(/do_img/global/externalDefault/scrollbar_slider_test.png?__cv=cd0f327a4c2786000ee3eb34cbe73b00) center center repeat-y !important;
+    -webkit-border-radius:  7px;
+    border-radius:          7px;
+    border-top-color:       #FFFFFF;
+    border-bottom-color:    #FFFFFF;
+}
+.jspVerticalBar {
+    background:     transparent !important;
+    width:          16px !important;
+}
+
+/* ---------------------------------------- regform styling ------------------------------------------ */
+
+.signup {
+    font-family:    Verdana, Arial, sans-serif;
+    font-size:      11px;
+    color:          #d9e0ee;
+    text-align:     left;
+    margin-left:    12px;
+    width:          317px;
+    line-height:    12px;
+}
+.signup_submit {
+    display:        none;
+    border:         0 none;
+    cursor:         pointer;
+    font-size:      0;
+    line-height:    0;
+    text-indent:    -9999px;
+    width:          292px;
+    height:         140px;
+    left:           -150px;
+    top:            4px;
+    position:       relative;
+    z-index:        20;
+}
+
+.signup td {
+    max-width: 157px;
+}
+.signup .signup_left{
+    display: none;
+}
+
+.label_birthday, .label_email, .label_passwordRepeat, .label_password, .label_username, .label_instances{
+    font-weight: bold;
+}
+
+.label_passwordRepeat{
+    min-width: 169px ;
+}
+
+.signup_container {
+    max-width:      326px;
+    margin-left:    0;
+    margin-top:     19px;
+}
+
+.label_checkbox{
+    width:290px !important;
+}
+
+label{ float:left; }
+
+.signup signup_input{
+    margin-left: -10px;
+}
+
+.signup_link, a{
+    color: #527283;
+}
+
+td .align_checkbox{
+    width:150px;
+}
+.signup tbody tr td .align_checkbox{
+    left:   56px;
+    width:  20px;
+}
+table.signup_input{
+    margin: 0;
+}
+
+input .signup_submit{
+    margin-left: -10px;
+}
+
+.signup_label label_checkbox a{
+    color: white;
+}
+
+.signup_back {
+    display: none;
+}
+
+.signup_input td {
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+}
+
+.input_checkbox {
+    height: 10px;
+    overflow: hidden;
+}
+.signup_errorLayer {
+    position:           absolute;
+    width:              320px;
+    height:             350px;
+    left:               15px;
+    top:                0;
+    padding:            5px;
+    background-color:   #D0CFBE;
+    border:             1px solid #000000;
+    z-index:            1111;
+}
+.signup_errorClose {
+    float:  right;
+    width:  26px;
+    height: 22px;
+}
+.signup_errorTitle {
+    font-family:    Verdana, Arial, Helvetica, sans-serif;
+    font-size:      14px;
+    font-weight:    bold;
+    width:          100%;
+}
+.singup_errorMessages {
+    font-family:    Verdana, Arial, Helvetica, sans-serif;
+    font-size:      10px;
+    clear:          both;
+    text-align:     left;
+    color:          white;
+    padding:        10px;
+}
+.singup_errorMessages p {
+    margin:  10px 0;
+}
+.signup_errorSuggestion {
+    color:  #FFFFFF;
+}
+.input_text, .input_textLong, #loginForm_openId_input_openIdUrl {
+    font-family:    Verdana,Arial,Helvetica,sans-serif;
+    font-size:      11px;
+    height:         25px;
+    color:          #D9E0EE;
+    padding-left:   8px;
+    padding-right:  8px;
+    border:         none;
+    width:          137px;
+    background: url(/do_img/global/externalDefault/input_form.png?__cv=4ee0eb53e8a6a926b2f781e6482df600) no-repeat;
+}
+
+.input_selectProvince, .input_selectDay, .input_selectMonth, .input_selectYear, .input_selectInstance{
+    font-family:    Verdana, Arial, Helvetica, sans-serif;
+    height:         23px;
+    font-size:      9px;
+    color:          white;
+    padding-top:    2px;
+    padding-bottom: 2px;
+    border:         1px solid #596D7A;
+    background-color: #13232E !important;
+    margin:         0;
+}
+
+.input_selectProvince {
+    width: 201px;
+}
+.input_selectDay {
+    width: 40px;
+}
+.input_selectMonth {
+    width: 40px;
+}
+.input_selectYear {
+    width: 61px;
+}
+.input_selectInstance {
+    width:150px;
+}
+.input_selectCountry{
+    border:         1px solid #777777;
+    color:          #000000;
+    font-family:    Verdana,Arial,Helvetica,sans-serif;
+    font-size:      9px;
+    height:         16px;
+    padding-left:   1px;
+    padding-right:  1px;
+    width:          201px;
+}
+
+a img {
+    border: none;
+}
+
+.align_checkbox {
+    vertical-align: top;
+}
+
+.signup_successDoubleOptIn {
+    font-family:    Verdana, Arial, sans-serif;
+    font-size:      11px;
+    color:          #d9e0ee;
+    text-align:     left;
+    margin-left:    12px;
+    width:          283px;
+    line-height:    12px;
+    margin-left:    45px;
+}
+/* ------------------------------------------- regform backgrounds -------------------------------------- */
+
+.regformBackground{
+    position:   absolute;
+
+}
+#do_regform_background{
+    left:   -57px;
+    top:    112px;
+}
+#do_regform_background_extension{
+    left:       -10px;
+    top:        408px;
+    display:    none;
+}
+/* call to action */
+#do_flash_cta {
+    position:   relative;
+    left:       33px;
+    top:        0;
+	z-index: 3;
+}
+
+/*  --------------------------------- Global footer -------------------------------------------------- */
+.do_footer{
+    position:   absolute;
+    left:       440px;
+    top:        1234px;
+    text-align: center;
+
+    width:      1046px;
+    height:     37px;
+
+    color:          #515252;
+    font-family:    Verdana, Arial, Helvetica, sans-serif;
+    font-size:      10px;
+    z-index:        22;
+}
+#gl_footer {padding-bottom: 20px; }
+
+#gl_footer div {display:inline; }
+#gl_footer a {
+    color:              #515252;
+    text-decoration:    none;
+}
+#gl_footer #gl_footer_element_image_logo{
+    position:   relative;
+    top:        7px;
+}
+/*  --------------------------------- footer socials -------------------------------------------------- */
+.do_footer #do_footer_logo_facebook,
+.do_footer #do_footer_logo_twitter,
+.do_footer #do_footer_logo_youtube,
+.do_footer_logos .followUs{
+    position:   absolute;
+}
+.do_footer #do_footer_logo_facebook{
+    left:   404px;
+    top:    -70px;
+}
+.do_footer #do_footer_logo_twitter{
+    left:   508px;
+    top:    -70px;
+}
+.do_footer #do_footer_logo_youtube {
+    left:   566px;
+    top:    -74px;
+}
+.do_footer_logos .followUs{
+    left:   478px;
+    top:    -87px
+}
+
+/*  --------------------------------- Login  -------------------------------------------------- */
+
+#loginForm_default_container{
+    background:     transparent !important;
+    position:       absolute !important;
+    left:           0 !important;
+    top:            0 !important;
+
+    width: 0;
+    height: 0;
+}
+
+#loginForm_default_container #loginForm_default_signupButton_container,
+#loginForm_default_container #loginForm_default_label_username_container,
+#loginForm_default_container #loginForm_default_label_password_container
+{
+    display:    none;
+}
+
+#loginForm_default_container #loginForm_default_input_username,
+#loginForm_default_container #loginForm_default_input_password {
+    background: url(http://www.darkorbit.com/do_img/global/externalDefault/input_login.png?__cv=15e31e7322a8e84a16a1c4f6a76e5600) center center no-repeat;
+    border:         none;
+    width:          144px;
+    height:         22px;
+    position:       absolute;
+    left:           22px;
+    text-align:     center;
+    color:          #BDBEC0;
+    font-size:      10px;
+    font-family:    Verdana;
+    padding-left:   6px;
+    padding-right:  6px;
+    outline: 0 none;
+}
+/*#loginForm_default_input_username.clearFieldBlurred,*/
+/*#loginForm_default_input_password.clearFieldBlurred {*/
+    /*color:          #666666 !important;*/
+/*}*/
+#loginForm_default_container #loginForm_default_input_username{
+    top:    43px;
+}
+#loginForm_default_container #loginForm_default_input_password{
+    top:    65px;
+}
+
+#loginForm_default_container #loginForm_default_loginButton{
+    width:          156px;
+    height:         21px;
+    font-size:      0;
+    color:          transparent;
+    border:         none;
+    position:       absolute;
+    left:           22px;
+    top:            90px;
+}
+
+#loginForm_default_container #loginForm_default_link_forgot{
+    position:       absolute;
+    left:           22px;
+    text-align:     center;
+    color:          #8CBCC6;
+    font-size:      10px;
+    font-family:    Verdana,serif;
+    width:          156px;
+    top:            112px;
+}
+
+#loginForm_default_container .openidButton{
+    position:   absolute !important;
+    left:       102px !important;
+    top:        15px !important;
+}
+#loginForm_default_container #loginForm_default_facebookConnect_container{
+    position:   absolute !important;
+    left:       22px !important;
+    top:        5px !important;
+    margin-top: 10px !important;
+}
+
+.loginErrorMessage {
+    padding:        10px;
+    font-size:      12px;
+    line-height:    12px;
+    font-family:    Verdana;
+    border:         1px solid #294153 ;
+    background-color: black;
+    position:       absolute;
+    top:            40px;
+    left:           0;
+    min-height:     76px;
+}
+
+/* ---------------------------- antec promo box ------------------------  */
+.antecPromoContainer {
+    position: relative;
+    top: 876px;
+    left: 546px;
+}
+
+.antecPromoContainer a {
+    text-decoration: none;
+}
+
+#antecLogo {
+    margin-bottom: 2px;
+}
+
+#antecFacebook {
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+
+#antecTwitter {
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+
+/*  --------------------------- system specs ---------------------------  */
+.systemSpecsContainer {
+    position: relative;
+    top: 890px;
+    left: 546px;
+    font-size: 11px;
+    width: 376px;
+}
+
+
+/*  --------------------------- openID -----------------------------------*/
+
+#loginForm_openId_container {
+    left: 12px;
+    position: absolute;
+    top: 41px;
+    background-color: #000;
+    border: 1px solid #294153;
+    color: #FFF;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: 10px;
+    font-family: Verdana, Arial;
+}
+#loginForm_openId_container label{
+    color: #FFF;
+}
+
+#loginForm_openId_container #loginForm_openId_loginButton{
+    width: 149px;
+    border: none;
+    font-size: 0;
+    height: 21px;
+}
+
+#loginForm_openId_container #loginForm_openId_loginButton_container{
+    padding-top: 3px;
+}
+
+#loginForm_openId_container #loginForm_openId_hideOpenId_handle {
+    width: 39px;
+    height: 13px;
+}
+/* -------------------------------------- Colorbox  --------------------------------------------------------- */
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; }
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto;}
+#cboxLoadedContent iframe{display:block; width:100%; height:100%; border:0;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+#cboxPrevious, #cboxNext { top: 218px;}
+#cboxOverlay{background:#000000; opacity:0.5 !important; filter: alpha(opacity=50) !important;}
+#colorbox{}
+#cboxTopLeft{width:10px; height:10px; background: url(/do_img/global/externalDefault/colorbox-corners.png?__cv=f0aa5837003efcc0723b70d901c25800) no-repeat top left;}
+#cboxTopRight{width:10px; height:10px; background: url(/do_img/global/externalDefault/colorbox-corners.png?__cv=f0aa5837003efcc0723b70d901c25800) no-repeat top right;}
+#cboxBottomLeft{width:10px; height:10px; background: url(/do_img/global/externalDefault/colorbox-corners.png?__cv=f0aa5837003efcc0723b70d901c25800) no-repeat bottom left;}
+#cboxBottomRight{width:10px; height:10px; background: url(/do_img/global/externalDefault/colorbox-corners.png?__cv=f0aa5837003efcc0723b70d901c25800) no-repeat bottom right;}
+#cboxMiddleLeft{width:10px; background: url(/do_img/global/externalDefault/colorbox-bg_h.png?__cv=3da626eaaa89fd9e619f46310e3ac900) left top repeat-y;}
+#cboxMiddleRight{width:10px; background: url(/do_img/global/externalDefault/colorbox-bg_h.png?__cv=3da626eaaa89fd9e619f46310e3ac900) right top repeat-y;}
+#cboxTopCenter{height:10px; background: url(/do_img/global/externalDefault/colorbox-bg_v.png?__cv=fe83ee4965915d16310005e09157a700) 0 0 repeat-x;}
+#cboxBottomCenter{height:10px; background: url(/do_img/global/externalDefault/colorbox-bg_v.png?__cv=fe83ee4965915d16310005e09157a700) 0 -70px repeat-x;}
+#cboxContent{background: url(/do_img/global/externalDefault/colorbox-bg_color.jpg?__cv=aa581ab66e5e2e81c5fb636c1c601400) transparent;}
+#cboxLoadedContent{}
+#cboxTitle{position:absolute; bottom:4px; left:0; text-align:center; width:100%; color:#949494;}
+#cboxCurrent{display:none !important;}
+#cboxSlideshow{position:absolute; bottom:4px; right:30px; color:#0092ef;}
+#cboxPrevious{position:absolute; left: -71px;  background: url(/do_img/global/externalDefault/colorbox-button.png?__cv=5498afb6a3c2e9f7581ce890ee4db000) no-repeat; width:55px; height:90px;; text-indent:-9999px;}
+#cboxNext{position:absolute; right: -71px; background: url(/do_img/global/externalDefault/colorbox-button.png?__cv=5498afb6a3c2e9f7581ce890ee4db000) no-repeat -55px 0; width:55px; height:90px;; text-indent:-9999px;}
+#cboxLoadingOverlay{background: url(/do_img/global/externalDefault/colorbox-corners.png?__cv=f0aa5837003efcc0723b70d901c25800) no-repeat center center;}
+#cboxLoadingGraphic{background: url(/do_img/global/externalDefault/colorbox-preloader.gif?__cv=e792d278153b575e16839bf31c3ddc00) no-repeat center center;}
+#cboxClose{position:absolute; top:-31px; right:-34px; background: url(/do_img/global/externalDefault/colorbox-button.png?__cv=5498afb6a3c2e9f7581ce890ee4db000) no-repeat -111px -50px; width:40px; height:40px; text-indent:-9999px;}

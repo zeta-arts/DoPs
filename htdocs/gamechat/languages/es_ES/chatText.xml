@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language key="es_ES">
+	<category name="globalchat.chat">
+		<item name="enterPrivateRoomName"><![CDATA[Enter private room name.]]></item>
+		<item name="kickmsg"><![CDATA[You have been kicked. Reason:{$comment}]]></item>
+		<item name="banmsg"><![CDATA[You have been banned. Reason: {$comment}]]></item>
+		<item name="kickBySystem"><![CDATA[You have been kicked from chat.]]></item>
+		<item name="roomnameTooShort"><![CDATA[Room name is too short.]]></item>
+		<item name="banBySystem"><![CDATA[You have been banned from chat.]]></item>
+		<item name="noMorePrivateRoomsAllowed"><![CDATA[Too much private rooms at the moment.]]></item>
+		<item name="wrongArguments"><![CDATA[Wrong command!]]></item>
+		<item name="privateRoomNotExist"><![CDATA[Private room does not exist.]]></item>
+		<item name="cannotWhisperYourself"><![CDATA[You cant whisper to yourself.]]></item>
+		<item name="noWhisperMessage"><![CDATA[No whisper msg found, to whisper use /w NICKNAME MESSAGE.]]></item>
+		<item name="userNotExistOrOnline"><![CDATA[User not found!]]></item>
+		<item name="notRoomOwner"><![CDATA[You arent chat room owner.]]></item>
+		<item name="inviteErrorUserNotFound"><![CDATA[User not found!]]></item>
+		<item name="inviteErrorNotYourRoom"><![CDATA[You arent chat room owner.]]></item>
+		<item name="cannotInviteYourself"><![CDATA[You cant invite yourself.]]></item>
+		<item name="connect"><![CDATA[Connected!]]></item>
+		<item name="privateRoomAlreadyExist"><![CDATA[Private room already exist.]]></item>
+		<item name="privateRoomDeleted"><![CDATA[Room {$room} has been deleted.]]></item>
+		<item name="floodWarning"><![CDATA[You are writing too fast!]]></item>
+		<item name="wrongVersion"><![CDATA[You are using wrong version of client!]]></item>
+		<item name="roomnameTooLong"><![CDATA[Room name is too long.]]></item>
+		<item name="cannotLeaveRoom"><![CDATA[Cannot leave room.]]></item>
+		<item name="system"><![CDATA[System]]></item>
+		<item name="fastReg"><![CDATA[You should be able to write in chat just before complete the full registration.]]></item>
+	</category>
+	<category name="globalchat.loginerror">
+		<item name="banned"><![CDATA[You have been banned. You will be unbaned on {$dayEnd} on {$monthEnd} on {$yearEnd} at {$hourEnd}:{$minuteEnd}:{$secondEnd}. ]]></item>
+		<item name="bannedForever"><![CDATA[You have been banned. You wont be unbanned, becouse its permament ban.]]></item>
+	</category>
+	<category name="globalchat.options">
+		<item name="whisperTo"><![CDATA[Whisper to {$user} ]]></item>
+		<item name="inviteTo"><![CDATA[Invite to {$room}]]></item>
+		<item name="copyName"><![CDATA[UNKNOWN ERROR!]]></item>
+		<item name="updateUserList"><![CDATA[UNKNOWN ERROR!]]></item>
+	</category>
+</language>

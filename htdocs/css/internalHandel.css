@@ -1,0 +1,191 @@
+#handel_singleview {
+	position:absolute;
+	top:25px;
+	left:299px;
+    width:262px;
+    border:1px solid white;
+}
+#handel_singleview_head {
+    height:34px;
+    background-image: url(/do_img/global/popup1_headline_bg.jpg?__cv=2c75f4ce54da9577a2046dcb0a15bc00);
+}
+#handel_singleview_headline {
+    float:left;
+    padding:10px 0px 0px 5px;
+}
+#handel_singleview_close {
+     float:right;
+}
+#handel_singleview_cont {
+    vertical-align:top;
+    height:236px;
+    padding:25px 15px 0 15px;
+    background-image: url(/do_img/global/trade/box1_buy_bg.jpg?__cv=28f8215fa1a631db9ba6d2f87bfd4700);
+}
+#handel_singleview_cont p {
+    margin:20px 0 20px 0;
+}
+#handel_singleview_foot {
+    height:47px;
+    background-image: url(/do_img/global/trade/box1_buy_foot.jpg?__cv=f34114dd3888d25066754c2102f59300);
+    text-align:center;
+    vertical-align:top;
+    padding-top:5px;
+}
+
+#cont_closed {
+    width:460px;
+    height:325px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    z-index:3;
+    margin-left:110px;
+}
+
+#closed_hl_date {
+    float:left;
+    width:75px;
+}
+#closed_hl_img {
+    float:left;
+    width:63px;
+    border:0px solid black;
+}
+#closed_hl_item {
+    float:left;
+    width:285px;
+    padding-left:5px;
+
+}
+.closed_date {
+    float:left;
+    width:75px;
+    padding-top:10px;
+    text-align:center;
+}
+.closed_img {
+    float:left;
+    width:63px;
+}
+.closed_item {
+    float:left;
+    width:285px;
+    height:53px;
+    padding:10px 0 0 10px;
+    background-image: url(/do_img/global/trenner.gif?__cv=add79a8fae498042e4b7d3bf0a131200);
+    background-repeat: repeat-y;
+}
+.closed_item p {
+    margin-top:5px;
+}
+.closed_winner p{
+    width:125px;
+    overflow: hidden;
+    font-weight:bold;
+}
+
+.separator_horizontal {
+    height:2px;
+    background-image: url(/do_img/global/trennerw1.gif?__cv=f3eb0e702f0ce5b56b07ebfd3a31c400);
+}
+
+
+
+.trade_img {
+    width:64px;
+}
+.trade_item {
+    width:173px;
+    padding-left:3px;
+    background-image: url(/do_img/global/trenner.gif?__cv=add79a8fae498042e4b7d3bf0a131200);
+    background-repeat: repeat-y;
+}
+.trade_buy {
+    width:108px;
+    vertical-align:top;
+    background-image: url(/do_img/global/trenner.gif?__cv=add79a8fae498042e4b7d3bf0a131200);
+    background-repeat: repeat-y;
+}
+.trade_buy_price {
+    display:block;
+    text-align:center;
+    width:102px;
+    height:19px;
+    margin:5px 0px 4px 3px;
+    border:0px solid black;
+    background-image: url(/do_img/global/trade/bg_text.gif?__cv=cc646d57c468d648776dab6eb2fa7f00);
+}
+*+html .trade_buy_price {
+    margin-top:6px;
+}
+.trade_buy_button {
+    padding-top:5px;
+    margin:0 3px;
+}
+.trade_buy_button_submit {
+    width:108px;
+    margin-top:3px;
+    margin-left:3px;
+}
+.trade_buy_button_wait {
+    width:108px;
+    margin-top:3px;
+    margin-left:3px;
+    text-align:center;
+}
+
+.trade_bid {
+    vertical-align:top;
+    background-image: url(/do_img/global/trenner.gif?__cv=add79a8fae498042e4b7d3bf0a131200);
+    background-repeat: repeat-y;
+}
+.trade_bid_price {
+    text-align:center;
+    font-weight:bold;
+    width:100px;
+    height:17px;
+    border:0px solid black;
+    background-image: url(/do_img/global/trade/bg_text.gif?__cv=cc646d57c468d648776dab6eb2fa7f00);
+    margin:5px 0px 0px 3px;
+}
+.trade_bid_button_submit{
+    margin:3px 0px 0px 3px;
+}
+.trade_bid_button_wait {
+    margin:3px 0px 0px 3px;
+    display:none;
+}
+.trade_separator_vertical {
+    background-image: url(/do_img/global/trenner.gif?__cv=add79a8fae498042e4b7d3bf0a131200);
+}
+.trade_separator_horizontal {
+    height:2px;
+    background-image: url(/do_img/global/trennerw1.gif?__cv=f3eb0e702f0ce5b56b07ebfd3a31c400);
+}
+#div_counter {
+     text-align:center;
+     margin:45px 0px 10px 0px;
+}
+#div_info {
+    margin-left:150px;
+    height:40px;
+    width:400px;
+    text-align:center;
+}
+#div_bazar_items {
+    /*width:480px;*/
+    width:477px;
+    height:275px;
+    overflow-y:auto;
+    overflow-x:auto;
+    z-index:3;
+    margin-left:110px;
+}
+#itemname {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#closeStandardLayerCross {
+    cursor:pointer;
+}

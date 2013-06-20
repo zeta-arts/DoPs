@@ -1,0 +1,922 @@
+#hallOfFame {
+    height: 420px;
+    margin: 0 auto;
+    background: url(/do_img/global/hof/hof_background.jpg) no-repeat center;
+}
+
+#hof_content {
+    width: 642px;
+    height: 305px;
+    margin: 6px 0 0 69px;
+}
+
+#hallOfFame h3 {
+    text-align: center;
+    margin-bottom: 8px;
+    padding: 3px 5px 0 0;
+    font-size: 10px;
+    color: #c3ebfe;
+    font-weight: normal;
+}
+
+.hof_home_tabs {
+    width: 420px;
+    height: 18px;
+    margin: 0 auto;
+}
+.hof_home_tabs div {
+    width: 138px;
+    height: 15px;
+    padding-top: 3px;
+    text-align: center;
+    background: url(/do_img/global/hof/subtab_sprite_138x18.png) no-repeat 0 0;
+    font-size: 10px;
+    color: #999999;
+    cursor: pointer;
+    float: left;
+    margin-right: 2px;
+}
+.hof_home_tabs div:hover {
+    background-position: 0 -18px;
+    color: #FFFFFF;
+}
+.hof_home_tabs .hof_home_tab_active {
+    background-position: 0 -36px;
+    color: #FFCC00;
+}
+
+#hof_spacer {
+    height: 18px;
+}
+
+#hof_sectionSelection {
+    width: 330px;
+    height: 49px;
+    margin: 0 auto 3px;
+    padding-left: 20px;
+}
+#hof_sectionSelection #section_clan {
+    background-image: url(/do_img/global/hof/navigation_icon_clan_42x49.png);
+}
+#hof_sectionSelection #section_your {
+    background-image: url(/do_img/global/hof/navigation_icon_user_42x49.png);
+}
+#hof_sectionSelection #section_user {
+    background-image: url(/do_img/global/hof/navigation_icon_start_42x49.png);
+}
+#hof_sectionSelection #section_exp {
+    background-image: url(/do_img/global/hof/navigation_icon_experience_42x49.png);
+}
+#hof_sectionSelection #section_hnr {
+    background-image: url(/do_img/global/hof/navigation_icon_honor_42x49.png);
+}
+#hof_sectionSelection #section_gate {
+    background-image: url(/do_img/global/hof/navigation_icon_gate_42x49.png);
+}
+#hof_sectionSelection #section_event{
+    background-image: url(/do_img/global/hof/navigation_icon_event_42x49.png);
+}
+#hof_sectionSelection .hof_section, #hof_sectionSelection .hof_section_active {
+    width: 42px;
+    height: 49px;
+    margin: 0 3px 0 0;
+    padding: 0;
+    background-position: 0 0;
+    display: block;
+    float: left;
+}
+#hof_sectionSelection .hof_section_active, #hof_sectionSelection .hof_section:hover {
+    background-position: 0 -49px;
+}
+
+.hof_inner_content {
+    margin-top: 5px;
+}
+
+.hof_content_splitter {
+    background: url(/do_img/global/hof/frame_element_splitter_01.png) no-repeat center;
+    width: 640px;
+    height: 1px;
+}
+
+#hof_dropdown_wrapper {
+    position: absolute;
+    top: 76px;
+    right: 83px;
+    z-index: 5;
+}
+#hof_dropdown {
+    width: 158px;
+    height: 16px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    font-family: Arial;
+    font-size: 9px;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 6px 0 0 25px;
+}
+#hof_dropdown.hof_selection_down {
+    background-image: url(/do_img/global/hof/dropdown_sprite_183x22.png);
+}
+#hof_dropdown.hof_selection_up {
+    background-image: url(/do_img/global/hof/dropup_sprite_183x22.png);
+}
+#hof_dropdown.hof_selection_inactive {
+    background-image: url(/do_img/global/hof/dropdown_sprite_183x22.png);
+    background-position: 0 -66px;
+    cursor: default;
+}
+#hof_dropdown_menu {
+    border: 1px solid #808080;
+    background-color: #000000;
+    opacity: 0.8;
+    display: none;
+}
+#hof_dropdown_menu.scrollPane {
+    height: 300px;
+    overflow: hidden;
+}
+#hof_dropdown_menu a {
+    display: block;
+    padding: 5px;
+    font-size: 10px;
+    color: #808080;
+    width: 171px;
+}
+#hof_dropdown_menu a:hover {
+    background-color: #2f4d65;
+    color: #FFFFFF;
+}
+
+#hof_daily_pointsAchieved {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 560px;
+    height: 35px;
+    color: #a4d3ff;
+    background: url(/do_img/global/hof/daily_content_header.png) no-repeat -40px -13px;
+}
+#hof_daily_points_descr {
+    float: left;
+    font-size: 11px;
+    padding: 11px 0 0 5px;
+    width: 300px;
+}
+#hof_daily_points_points {
+    float: right;
+    font-size: 12px;
+    padding-top: 10px;
+    margin-right: 135px;
+    width: 105px;
+    text-align: center;
+}
+#hof_daily_formulaUnits {
+    height: 220px;
+    overflow: hidden;
+}
+.hof_ranking_table, .hof_ranking_margin {
+    margin-left: 40px;
+}
+.home_listing_table {
+    margin-top: 20px;
+}
+.hof_ranking_table td, tr.hof_highlighted td {
+    background: url(/do_img/global/hof/line_black_thin.png);
+    padding: 0 5px;
+}
+tr.none td {
+    background: 0 none;
+}
+.hof_shooting_table {
+    margin: 0 0 0 40px;
+}
+
+.hof_units_formula {
+    font-size: 10px;
+    color: #d5ebfb;
+    width: 20px;
+    text-align: center;
+}
+.hof_units_text {
+    font-size: 10px;
+    color: #d5ebfb;
+    width: 259px;
+}
+.hof_units_text_long {
+    width: 300px;
+}
+.hof_units_amount {
+    font-size: 9px;
+    color: #d5ebfb;
+    width: 95px;
+    text-align: right;
+}
+.hof_units_factor {
+    font-size: 11px;
+    color: #6c6c6c;
+    width: 95px;
+}
+.hof_spacer_hz {
+    width: 1px;
+    background: transparent !important;
+}
+.hof_spacer_vc {
+    height: 5px;
+    background: transparent !important;
+}
+td.rank_position {
+    width: 80px;
+}
+td.rank_position_font, td.rank_position {
+    text-align: center;
+    font-size: 10px;
+    color: #6b6b6b;
+}
+td.rank_name {
+    width: 250px;
+}
+td.rank_name, td.rank_name_font {
+    font-weight: bold;
+    font-size: 10px;
+    color: #a4d3ff;
+}
+td.rank_points {
+    width: 100px;
+    text-align: right;
+}
+td.rank_points, td.rank_points_font {
+    padding-right: 10px;
+    font-size: 10px;
+    color: #bcd3e3;
+}
+tr.rank_myRank td.rank_name, tr.rank_myRank td.rank_points {
+    color: #ffcc00;
+}
+
+.home_listing_table .rank_name {
+    width: 280px;
+}
+.home_listing_table .rank_points {
+    padding-right: 30px;
+    width: 135px;
+}
+
+#daily_negative .hof_units_formula,
+#daily_negative .hof_units_text,
+#daily_negative .hof_units_amount {
+    color: #aa2020;
+}
+
+#hof_daily_sum {
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+#hof_faction_table {
+    margin: 35px auto 10px;
+    background: url(/do_img/global/hof/company_content_header.png) no-repeat 0 0;
+}
+#hof_faction_header td {
+    height: 86px;
+}
+#hof_faction_header .hof_faction_logo {
+    width: 92px;
+    background: transparent;
+}
+#hof_faction_header .hof_faction_logo img {
+    display: block;
+    margin: 25px auto 0;
+}
+.hof_faction_spacer {
+    background: transparent !important;
+}
+#hof_faction_table .rank_name {
+    width: 221px;
+    font-weight: normal;
+}
+#hof_faction_table .rank_points {
+    width: 95px;
+    padding-right: 5px;
+    font-size: 8px;
+}
+#hof_faction_table .hof_spacer_hz {
+    padding: 0 !important;
+    width: 8px;
+}
+
+#hof_daily_formulaUnits p {
+    width: 540px;
+    margin: 0 auto;
+    font-size: 10px;
+}
+
+table.hof_tableHeader {
+    background: url(/do_img/global/hof/frame_element_top_01.png) no-repeat 0 0;
+    padding: 0;
+    margin: 27px 0 0 -2px;
+    width: 641px;
+}
+
+table.hof_tableHeader td, table.hof_tableHeader th {
+    font-family: Arial;
+    font-size: 10px;
+    color: #a4d3ff;
+    height: 22px;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+table.hof_tableHeader .hof_rank {
+    width: 60px;
+    padding-left: 40px;
+}
+table.hof_tableHeader .hof_name {
+    width: 335px;
+}
+table.hof_innerTableHeader {
+    background: url(/do_img/global/hof/frame_element_top_02.png) no-repeat center top;
+    padding: 0;
+    width: 578px;
+    margin-left: 20px;
+}
+table.hof_innerTableHeader th, .hof_shooting_table th {
+    font-family: Arial;
+    font-size: 10px;
+    color: #a4d3ff;
+    height: 22px;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+.hof_shooting_table {
+    width: 540px;
+}
+.hof_shooting_table th {
+    padding-left: 0;
+}
+.hof_shooting_table .rank_points_font {
+    text-align: center;
+}
+.hof_shooting_table .rank_name_font {
+    padding-left: 20px;
+    color: #d5ebfb;
+}
+table.hof_innerTableHeader .hof_rank,
+table.hof_innerTableHeader .rank_position {
+    width: 59px;
+}
+table.hof_innerTableHeader .hof_name,
+table.hof_innerTableHeader .rank_name {
+    width: 325px;
+}
+table.hof_innerTableHeader .rank_points {
+    width: inherit;
+    padding-right: 25px;
+}
+
+.hof_defaultListing {
+    height: 220px;
+}
+
+table.defaultRanking {
+    margin-left: 30px;
+}
+td.splitter {
+    padding: 0;
+    width: 1px;
+    vertical-align: middle;
+}
+table.defaultRanking td.rank_position {
+    width: 56px;
+}
+table.defaultRanking td.rank_name {
+    padding-left: 20px;
+    width: 331px;
+}
+table.defaultRanking td.rank_points {
+    padding-right: 25px;
+    width: 100px;
+}
+
+.hof_rankingCategory {
+    width: 565px;
+    height: 19px;
+    margin: 0 auto;
+    background: url(/do_img/global/hof/tab_collapse_sprite_590x19.png) no-repeat 0 0;
+    cursor: pointer;
+    font-size: 12px;
+    color: #bdbdbd;
+    padding: 0 0 0 25px;
+}
+.hof_rankingCategory:hover {
+    background-position: 0 -19px;
+    color: #ffffff;
+}
+.hof_category_active, .hof_category_active:hover {
+    background-position: 0 -38px;
+    color: #ffcc00;
+}
+.hof_rankingCategory_data {
+    width: 578px;
+    margin: 0 auto 2px;
+}
+
+.hof_fullContent {
+    margin-top: 28px;
+    height: 244px;
+}
+
+.small_grey_center {
+    color: #555555;
+    font-size: 10px;
+    text-align: center;
+    font-family: "Arial";
+    margin-top: 2px;
+}
+.small_blue {
+    font-size: 10px;
+    color: #a4d3ff;
+}
+.bottom_splitter {
+    height: 20px;
+    line-height: 18px;
+    padding-left:15px;
+    background: url(/do_img/global/hof/frame_element_splitter_02.png) no-repeat center bottom;
+    margin-bottom: 5px;
+}
+
+
+#hof_pagination {
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 10px;
+    position: absolute;
+    top: 400px;
+    left: 294px;
+    width: 271px;
+    height: 12px;
+}
+#hof_pagination a {
+    color: #566e85;
+}
+#hof_pagination span {
+    color: #ffffff;
+}
+.hof_pages_prev {
+    float: left;
+    width: 65px;
+}
+.hof_pages_next {
+    float: right;
+    width: 65px;
+    text-align: right;
+}
+.hof_pages {
+    float: left;
+    margin-left: 10px;
+    width: 121px;
+    text-align: center;
+}
+
+#hof_springfight_header {
+    background: url(/do_img/global/hof/frame_element_top_03.1.png) no-repeat center top;
+    height: 19px;
+    width: 638px;
+    margin: 27px 0 0 0;
+}
+#hof_springfight_content {
+    background: url(/do_img/global/hof/frame_element_top_03.1.png) no-repeat center bottom;
+    height: 43px;
+    width: 638px;
+}
+.hof_springfight_inner {
+    background: url(/do_img/global/hof/frame_element_top_03.1.png) no-repeat center top;
+    width: 578px;
+}
+#hof_spaceball {
+    width: 638px;
+    margin: 27px 0 0 0;
+    background: url(/do_img/global/hof/frame_element_top_03.png) no-repeat center top;
+    height: 62px;
+}
+#hof_spaceball th, #hof_springfight_header th {
+    font-family: Arial;
+    font-size: 10px;
+    color: #a4d3ff;
+    height: 18px;
+    text-align: center;
+}
+#hof_springfight_header th {
+    text-align: left;
+    padding-left: 15px;
+}
+.hof_springfight_inner th {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 10px;
+    color: #a4d3ff;
+    text-align: center;
+    height: 19px;
+}
+#hof_springfight_content td, .hof_springfight_inner td {
+    font-family: Verdana;
+    font-size: 9px;
+    padding: 0 5px;
+}
+#hof_spaceball td {
+    font-family: Verdana;
+    font-size: 10px;
+    text-align: center;
+}
+#hof_spaceball td {
+    height: 14px;
+}
+#hof_spaceball th {
+    height: 19px;
+}
+#hof_spaceball td.faction {
+    color: #6b6b6b;
+}
+#hof_springfight_content td.faction, .hof_springfight_inner td.faction {
+    color: #6b6b6b;
+    text-align: right;
+    padding-right: 10px;
+}
+#hof_springfight_content td.user, .hof_springfight_inner td.user {
+    color: #a4d3ff;
+    font-weight: bold;
+    cursor: pointer;
+    padding-left: 15px;
+}
+#hof_springfight_content td.score, .hof_springfight_inner td.score {
+    text-align: right;
+}
+#hof_spaceball_history {
+    height: 178px;
+}
+.spaceball_score_wrapper {
+    width: 420px;
+    margin: 0 auto;
+    height: 62px;
+    margin-bottom: 5px;
+}
+
+
+.spaceball_score {
+    float: left;
+    width: 128px;
+    height: 62px;
+    background: url(/do_img/global/hof/score_field_128x62.png) no-repeat center;
+    margin: 0 0 0 12px;
+}
+.spaceball_score img {
+    display: block;
+    float: left;
+}
+.spaceball_score div {
+    float: left;
+    font-weight: bold;
+    font-size: 14px;
+    color: #a4d3ff;
+    width: 50px;
+    text-align: center;
+    margin: 37px 0 0 0;
+}
+.hof_springfight_inner_wrapper_left {
+    float: left;
+    width: 288px;
+    border-right: 1px solid #2b4254;
+    padding-top: 5px;
+    height: 70px;
+}
+.hof_springfight_inner_wrapper_right {
+    float: left;
+    width: 289px;
+    height: 47px;
+    padding-top: 28px;
+}
+.hof_springfight_inner_wrapper_left .spaceball_win_notification {
+    margin-top: 0;
+}
+.hof_score_fields_small {
+    background: url(/do_img/global/hof/score_fields_small_280x38.png) no-repeat center top;
+    width: 280px;
+    height: 38px;
+    margin: 0 auto;
+}
+.hof_score_fields_small div {
+    font-weight: bold;
+    font-size: 8px;
+    background: no-repeat 4px center;
+    height: 14px;
+    float: left;
+    margin-left: 3px;
+    width: 46px;
+    padding: 24px 2px 0 40px;
+}
+.hof_score_fields_small span {
+    display: block;
+    text-align: center;
+}
+.hof_score_fields_small div.springfight_time_my {
+    background-image: url(/do_img/global/hof/icon_my-time.png);
+    color: #ffcc00;
+}
+.hof_score_fields_small div.springfight_time_diff {
+    background-image: url(/do_img/global/hof/icon_time-difference.png);
+}
+.hof_score_fields_small div.springfight_time_total {
+    background-image: url(/do_img/global/hof/icon_total-time.png);
+    color: #a4d3ff;
+}
+.hof_score_fields_small div.springfight_score_my {
+    background-image: url(/do_img/global/hof/icon_my-score.png);
+    color: #ffcc00;
+}
+.hof_score_fields_small div.springfight_score_diff {
+    background-image: url(/do_img/global/hof/icon_score-difference.png);
+}
+.hof_score_fields_small div.springfight_score_total {
+    background-image: url(/do_img/global/hof/icon_total-score.png);
+    color: #a4d3ff;
+}
+
+.sf_score_pos {
+    color: #58903d;
+}
+.sf_score_neg {
+    color: #aa2020;
+}
+
+#tdm_header {
+    width: 642px;
+    padding-left: 30px;
+    background: url(/do_img/global/hof/frame_element_top_04.png) no-repeat center top;
+}
+#tdm_header th {
+    padding-left: 10px;
+}
+#tdm_results .rank_points_font {
+    text-align: center;
+}
+.subEntryName {
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+/** sector control */
+
+table.sectorControlHeader {
+
+    background: none;
+    padding: 0;
+    margin: 27px 0 0 -2px;
+    width: 641px;
+}
+
+.hof_titleSectorControl{
+    background: url(/do_img/global/hof/frame_element_splitter_01.png) no-repeat 0px 21px;
+    padding: 0;
+    margin: 27px 0 0 -2px;
+}
+
+.listing_sectorControl {
+    height: 115px;
+}
+
+.spaceball_score_wrapper_sectorConrol{
+    margin-top: 14px;
+}
+
+.bottom_splitter_sectorControl {
+    padding: 5px 0 5px 20px;
+    background: url(/do_img/global/hof/frame_element_splitter_01.png) repeat-x center top,
+    url(/do_img/global/hof/frame_element_splitter_01.png) repeat-x center bottom;
+    margin-bottom: 5px;
+}
+
+
+.table_sectorControl{
+    margin-top: 16px;
+    margin-left: 92px;
+}
+
+.table_sectorControl td.rank_sectorControl_name{
+    text-align: left;
+    color: #a4d3ff;
+}
+
+.table_sectorControl td.rank_sectorControl_separator{
+    width: 320px;
+}
+
+.table_sectorControl td.rank_sectorControl_points{
+    text-align: left;
+    width: 60px;
+    font-family: verdana;
+    font-size: 11px;
+    color:#a4d3ff;
+
+}
+.collapse_window {
+    background: url(/do_img/global/hof/tab_collapse_window_580x1.png) repeat-y center top;
+    padding-left: 2px;
+    width: 580px;
+    margin: 0 auto;
+}
+
+#hof_faction_table .rank_name {
+    color: #bcd3e3;
+}
+
+.spaceball_win_notification {
+    margin: 5px 0 0 15px;
+    padding-bottom: 10px;
+}
+
+#hof_content .scroll-pane {
+    overflow: hidden;
+}
+
+.collapse_window #tdm_header {
+    padding: 0;
+    margin: 0 auto;
+    width: 575px;
+}
+
+#hof_ctb_matches {
+    padding-top: 30px;
+}
+#hof_ctb_matches .hof_innerTableHeader {
+    background: 0 none;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.hof_shooting_table td.rank_points_font {
+    padding: 0;
+}
+
+/*** Jackpot arena ***/
+
+.arenaContainer {
+    position: relative;
+    width: 578px;
+    margin-left: 20px;
+    border-left: 1px solid #2b4254;
+    border-right: 1px solid #2b4254;
+    border-bottom: 1px solid #2b4254;
+
+}
+
+.splitterSmall, .splitterBig {
+    width: 100%;
+    height: 1px;
+    background-color: #2b4254;
+}
+
+.splitterBig {
+    height: 6px;
+}
+
+.arenaWinnerContainer, .arenaFinalContainer, .arenaSemiFinalContainer {
+    position: relative;
+    height: 74px;
+}
+
+.roundCaption {
+    font-size: 10px;
+    color: #a4d3ff;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+.arenaWinner {
+    width: 190px;
+    height: 55px;
+    background-image: url(/do_img/global/hof/table_1.png);
+    position: relative;
+    margin: auto;
+    top: 8px;
+    font-size: 14px;
+}
+
+
+.arenaFinal, .arenaOwnResult {
+    width: 426px;
+    height: 74px;
+    background-image: url(/do_img/global/hof/table_2.png);
+    position: relative;
+    margin: auto;
+    bottom: 12px;
+    font-size: 11px;
+}
+
+.arenaOwnResultContainer .arenaOwnResult {
+    top: 0;
+}
+
+.arenaSemiFinal {
+    width: 255px;
+    height: 74px;
+    background-image: url(/do_img/global/hof/table_3.png);
+    position: absolute;
+    top: 0px;
+    font-size: 9px;
+}
+
+.arenaSemiFinal1 {
+    left: 23px;
+
+}
+
+.arenaSemiFinal2 {
+    left: 297px;
+}
+
+.winnerCaption {
+    text-align: center;
+    position: relative;
+    top: 12px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.winner {
+    color: #a4d3ff;
+    font-weight: bold;
+}
+
+.loser {
+    color: #57738b;
+    font-weight: bold;
+}
+
+.finalContestantLeft, .finalContestantRight {
+    position: absolute;
+    top: 26px;
+    width: 150px;
+    height: 32px;
+}
+
+
+
+.finalContestantLeft {
+    left: 0px;
+}
+
+.finalContestantRight {
+    left: 274px;
+}
+
+.semiFinalContestantLeft, .semiFinalContestantRight {
+    position: absolute;
+    top: 32px;
+    width: 122px;
+    height: 26px;
+}
+
+.semiFinalContestantLeft {
+    left: 0px;
+}
+
+.semiFinalContestantRight {
+    left: 134px;
+}
+
+.finalCaption {
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.semiFinalCaption {
+    text-align: center;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.wildcard, .wildcardBig {
+    font-size: 0px;
+    margin-top: 0px;
+    width: 100px;
+    height: 22px;
+    background-image: url(/do_img/global/hof/wildcard.png);
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+}
+
+.wildcardBig {
+    width: 127px;
+    height: 26px;
+    background-image: url(/do_img/global/hof/wildcard_big.png);
+    margin-top: 4px;
+}
+
+br.clear {
+    height: 0;
+    clear: both;
+}
